@@ -32,7 +32,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "My Name is Cifar";
       texts.appendChild(p);
     }
-    if (text.includes("open novel interaction lab class")) {
+    if (text.includes("open lab")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "opening Novel Interaction lab class ";
@@ -40,7 +40,7 @@ recognition.addEventListener("result", (e) => {
       console.log("opening Novel interaction's Lab Class, check your video and audio settings!");
         window.open("https://www.play.mdx.ac.uk/channel/Novel%2BInteraction%2BTechnoloy%2BLab%253A%2BMonday%2Band%2BFriday/183405661");
       }
-       if (text.includes("open novel interaction lecture class")) {
+       if (text.includes("open lecture")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "opening Novel Interaction lecture class ";
